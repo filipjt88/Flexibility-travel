@@ -1,0 +1,517 @@
+/*
+#51CCA8  zelena
+#51B9CC  zeleno plava
+#5E92CC  plava
+#6E81D0  ljubicasta
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700,900');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border:none;
+    height: 4px;
+    background: #fff;
+    width: 10%;
+    margin: auto;
+    position: relative;
+    bottom: 220px;
+}
+
+/******** HEADER ****************/
+
+header {
+    background-image:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)),url(img/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 650px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+header p {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    bottom: 200px;
+    font-weight: bold;
+}
+
+
+nav .logo {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 900;
+    position: relative;
+    top: 20px;
+    left: 2%;
+}
+
+
+
+ul {
+   display: flex;
+   justify-content: flex-end;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/******** END OF HEADER ****************/
+
+
+
+/******** ONE ****************/
+
+
+.one .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one .col:first-child {
+    background: #51CCA8;
+    height: 350px;
+}
+
+.one .col:last-child {
+    background-image: url(img/section-one.jpg);
+    background-position: center;
+    background-size: cover;
+     height: 350px;
+    flex: 1;
+}
+
+.one .col {
+    flex: 0 0 60%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.one .col .box {
+    border: 1px solid #fff;
+    height: 250px;
+    width: 400px;
+    position: relative;
+    left: 350px;
+    top: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.box {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.box h2 {
+    color: #000;
+    font-size: 1rem;
+}
+
+.box p {
+font-size: 15px;
+    color: #000;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.box button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background:#51CCA8;
+    font-size: 1rem;
+}
+
+
+/******** END OF ONE ****************/
+
+
+/******** TWO ****************/
+
+.two .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.two .col:last-child {
+    background: #51B9CC;
+    height: 350px;
+    flex: 1;
+}
+
+.two .col:first-child {
+    background-image: url(img/section-two.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+  
+}
+
+.two .col {
+    flex: 0 0 40%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.two .col .box1 {
+    border: 1px solid #fff;
+    height: 250px;
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    right: 70%;
+}
+
+.box1 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.box1 h2 {
+    color: #000;
+    font-size: 1rem;
+    position: relative;
+    right: 20%;
+}
+
+.row .col h3 {
+    color: #000;
+    font-size: 1.5rem;
+    position: relative;
+    left: 30%;
+    color: #fff;
+    font-style: italic;
+}
+
+.box1 p {
+    font-size: 15px;
+    color: #000;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.box1 button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background:#51B9CC;
+    font-size: 1rem;
+}
+
+
+/******** END OF TWO ****************/
+
+
+/******** THREE ****************/
+
+
+.three .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three .col:first-child {
+    background: #5E92CC;
+    height: 350px;
+}
+
+.three .col:last-child {
+    background-image: url(img/section-three.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    flex: 1;
+}
+
+.three .col {
+    flex: 0 0 60%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.three .col .box3 {
+    border: 1px solid #fff;
+    height: 250px;
+    width: 400px;
+    position: relative;
+    left: 350px;
+    top: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.box3 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.box3 h2 {
+    color: #000;
+    font-size: 1rem;
+}
+
+.box3 p {
+font-size: 15px;
+    color: #000;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.box3 button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background:#5E92CC;
+    font-size: 1rem;
+}
+
+
+/******** END OF THREE ****************/
+
+
+
+/******** FOUR ****************/
+
+
+.four {
+    background:#5E92CC;
+    height: 105vh;
+}
+
+.four-img {
+    width: 80%;
+    margin:auto;
+    background-image: url(img/section-four.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.four-img h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.four-img button {
+    margin-top: 20px;
+      padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background:#5E92CC;
+    font-size: 1rem;
+}
+
+.four-img .col {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+
+
+/******** END OF FOUR ****************/
+
+
+
+/******** FIVE ****************/
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.five .row {
+    display: flex;
+}
+
+.five .box {
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+
+.five .box button {
+    background: #5E92CC;
+}
+
+.five .box h2 {
+    font-size: 1.5rem;
+}
+.col img {
+    width: 90%;
+}
+
+
+/******** END OF FIVE ****************/
+
+
+/******** SIX ****************/
+
+
+.six {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 50px;
+    background: #51CCA8;
+    color: #fff;
+}
+
+.six button {
+    text-align:left;
+    padding: 5px 30px;
+}
+
+.six input {
+    padding: 5px 50px;
+    margin:5px;
+}
+
+.six input,button {
+    margin-top: 20px;
+}
+
+
+/******** END OF SIX ****************/
+
+
+
+/******** FOOTER ****************/
+
+footer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/******** END OF FOOTER ****************/
+
+
+
+/******** RESPONSIVE ****************/
+
+@media(max-width:768px) {
+    nav {
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    nav .logo {
+    position: relative;
+    top: 50px;
+        
+    }
+    
+    .one .row {
+        display: flex;
+    }
+    
+    .five .row {
+        display: block;
+    }
+    
+    .five .box button {
+    margin-bottom: 20px;
+}
+    
+    footer {
+      display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    footer a {
+        margin: 10px;
+        font-size: 1.2rem;
+    }
+    
+    
+}
+
+
+
+
+
+/******** END OF RESPONSIVE ****************/
+
+
+
+
